@@ -1,0 +1,67 @@
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    background-color: black;;
+}
+
+/* Setting base font size */
+html {
+    font-size: 16px; /* Define your base font size here */
+}
+
+/* Setting styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Styles for the welcome container */
+.welcome {
+    text-align: center;
+    max-width: 37.5rem; /* 600px */
+    padding: 1.25rem; /* 20px */
+}
+
+/* Styles for the welcome heading */
+.welcome h1 {
+    font-size: 2.5rem; /* 40px */
+    margin-bottom: 1.25rem; /* 20px */
+}
+
+/* Styles for the choice list */
+.choice {
+    list-style-type: none;
+    padding: 0.7rem;
+}
+
+/* Styles for the choice list items */
+.choice li {
+    margin-bottom: 0.9375rem; /* 15px */
+}
+
+/* Styles for the sign-in and sign-up buttons */
+.choice button {
+ 
+    padding: 0.825rem 1.25rem; /* 10px 20px */
+    font-size: 1.2rem; /* 20px */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0.3125rem; /* 5px */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.choice button:hover {
+    background-color: #0056b3;
+}
